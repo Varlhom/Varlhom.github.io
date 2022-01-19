@@ -1,0 +1,450 @@
+body{
+  background:url(../img/legacy/grad-bg.png);
+  background:-webkit-linear-gradient(135deg,#ba3676,#564ab9,#3ca6c8,#1eb267,#cba926,#ba3676,#564ab9) 0/600% 600% fixed;
+  background:-moz-linear-gradient(135deg,#ba3676,#564ab9,#3ca6c8,#1eb267,#cba926,#ba3676,#564ab9) 0/600% 600% fixed;
+  background:-o-linear-gradient(135deg,#ba3676,#564ab9,#3ca6c8,#1eb267,#cba926,#ba3676,#564ab9) 0/600% 600% fixed;
+  background:linear-gradient(135deg,#ba3676,#564ab9,#3ca6c8,#1eb267,#cba926,#ba3676,#564ab9) 0/600% 600% fixed;
+  -webkit-animation:grad_bg 25s linear infinite;
+  -moz-animation:grad_bg 25s linear infinite;
+  animation:grad_bg 25s linear infinite;
+  font-size:1em;
+  transition:margin 200ms ease-in-out
+}
+
+div.mc{
+  margin-top:150px;
+  margin-left:60px;
+  color:#FFF
+}
+
+div.mc a{
+  color:#FFF;
+  text-decoration:none
+}
+
+div.mc-cont{
+  min-height:110%;overflow:hidden
+}
+
+h1.name{
+  font-size:10em;
+  font-family:"Gilroy-Light",sans-serif;
+  margin:0
+}
+
+ul.hl{
+  list-style-type:none;
+  padding:0;
+  font-size:2.8em;
+  margin-top:30px
+}
+
+ul.hl li{
+  cursor:pointer;
+  transition:text-shadow 150ms ease-in-out;
+  margin-bottom:-10px
+}
+
+ul.hl li:hover{
+  text-shadow:0 3px 6px rgba(0,0,0,0.4)
+}
+
+div.icongroup{
+  display:inline;margin-left:80px
+}
+
+div.page{
+  background:#FFF;
+  width:80%;
+  margin:80px auto 0;
+  border-radius:8px;
+  padding:0 5% 60px;
+  box-shadow:0 3px 6px rgba(0,0,0,0.3);
+  font-size:1.5em;
+  color:#212121;
+  overflow:hidden
+}
+
+div.page *::selection, div.page *::-moz-selection{
+  background:rgba(0,0,0,0.25)
+}
+
+div.page a,div.page a:visited{
+  color:#304FFE
+}
+div.page h2{
+  font-family:'Gilroy-Light',Arial,Helvetica,sans-serif;
+  font-size:3em;
+  font-weight:700;
+  padding:40px 15px 15px;
+  margin:10px 0;
+  transition:padding 100ms
+}
+
+div.page h2#code{
+  color:#E53935;
+  border-bottom:4px solid #E53935
+}
+
+div.page h2#web{
+  color:#039BE5;
+  border-bottom:4px solid #039BE5
+}
+
+div.page h2#game{
+  color:#009688;
+  border-bottom:4px solid #009688
+}
+
+div.page h3{
+  font-size:1.5em
+}
+
+div.page p{
+  margin:20px 0
+}
+
+div.skills{
+  float:left;width:50%
+}
+
+div.skills ul{
+  list-style-type:none;padding:0 10px
+}
+
+div.skills ul li{
+  padding:25px 5px 10px;
+  overflow-x:auto
+}
+
+div.skills ul li div.percent-right{
+  float:right;
+  margin-left:5px
+}
+
+div.skills ul li#cpp{
+  max-width:95%;
+  color:#F44336;
+  border-bottom:4px solid #F44336
+}
+
+div.skills ul li#cs{
+  max-width:90%;
+  color:#E91E63;
+  border-bottom:4px solid #E91E63
+}
+
+div.skills ul li#java{
+  max-width:95%;
+  color:#9C27B0;
+  border-bottom:4px solid #9C27B0
+}
+
+div.skills ul li#html{
+  max-width:95%;
+  color:#2196F3;
+  border-bottom:4px solid #2196F3
+}
+
+div.skills ul li#css{
+  max-width:100%;
+  color:#00ACC1;
+  border-bottom:4px solid #00ACC1
+}
+
+div.skills ul li#js{
+  max-width:90%;
+  color:#009688;
+  border-bottom:4px solid #009688
+}
+
+div.skills ul li#php{
+  max-width:95%;
+  color:#4CAF50;
+  border-bottom:4px solid #4CAF50
+}
+
+div.about{
+  float:right;
+  width:45%
+}
+
+div.about p{
+  padding:0 10px;
+  text-align:justify;
+  font-size:0.8em
+}
+
+div.works{
+  clear:both;
+  align-content:center;
+  text-align:center
+}
+
+div.works h3{
+  font-family:"Gilroy-Light";
+  font-weight:100;
+  margin:0 auto;
+  font-size:1.7em;
+  border-bottom:3px solid #212121;
+  padding:50px 25px 10px;
+  display:inline-block
+}
+
+div.oc{
+  margin:100px 0
+}
+
+div.page.code div.oc img{
+  width:400px
+}
+
+div.page.web div.oc img{
+  width:1000px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.page.web div.oc img:hover{
+  border-color: purple;
+z-index: 9;
+-ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.1);
+}
+
+div.oc p.title{
+  font-size:2em
+}
+
+div.oc a.linked-preview{
+  text-decoration:none;color:#212121
+}
+
+
+
+div.page.game h3{
+  margin:30px 0 10px;
+  padding:10px 5px;
+  border-bottom:solid #212121;
+  display:inline-block
+}
+
+div.page.game p{
+  padding:10px
+}
+
+div.contact-badges a{
+  display:inline-block
+}
+
+i.arrow{
+  margin-left:20px;
+  opacity:1;
+  font-style:normal;
+  transition:all 200ms
+}
+
+i.arrow.hidden{
+  margin-left:10px;
+  opacity:0
+}
+
+i.icon{
+  display:inline-block;
+  width:80px;
+  height:80px;
+  margin-right:15px;
+  background-size:auto 100%;
+  background-repeat:no-repeat;
+  background-position:center;
+  vertical-align:middle;
+  transition:all 200ms;
+  opacity:1
+}
+
+div.icongroup.hidden > i.icon{
+  margin-right:5px;
+  opacity:0
+}
+
+i.icon.cpp{background-image:url(../img/logos/cpp.svg)}
+i.icon.cs{background-image:url(../img/logos/cs.svg)}
+i.icon.java{background-image:url(../img/logos/java.svg)}
+
+i.icon.html{background-image:url(../img/logos/html5.svg)}
+i.icon.css{background-image:url(../img/logos/css3.svg)}
+i.icon.js{background-image:url(../img/logos/js.svg)}
+i.icon.php{background-image:url(../img/logos/php.svg)}
+
+i.icon.unity{background-image:url(../img/logos/unity.svg)}
+i.icon.godot{background-image:url(../img/logos/godot.svg)}
+i.icon.gameMaker{background-image:url(../img/logos/gm2.svg)}
+
+a.icon-link::before{
+  padding-right:25px;
+  content:" ";
+  background-repeat:no-repeat;
+  background-size:25px auto;
+  white-space:pre;
+  background-position:left center
+}
+
+a.icon-link{
+  text-decoration:none;
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+  padding-bottom:1px
+}
+
+div.page a.icon-link[href*="mailto"]::before{background-image:url(../img/logos/contacts/mail.svg)}div.page a.icon-link[href*="mailto"]{color:#f44336}
+div.page a.icon-link[href*="linkedin.com"]::before{background-image:url(../img/logos/contacts/linkedin.svg)}div.page a.icon-link[href*="linkedin.com"]{color:#0077B7}
+
+@-webkit-keyframes grad_bg{
+  0%
+  {
+    background-position:0% 0%
+  }
+  100%
+  {
+    background-position:100% 100%
+  }
+}
+@-moz-keyframes grad_bg{
+  0%
+  {
+    background-position:0% 0%
+  }
+  100%
+  {
+    background-position:100% 100%
+  }
+}
+@keyframes grad_bg{
+  0%
+  {
+    background-position:0% 0%
+  }
+  100%
+  {
+    background-position:100% 100%
+  }
+}
+
+div#end{
+  color:#FFF;
+  width:100%;
+  text-align:center;
+  margin:25px auto;
+  opacity:.5
+}
+div#end p{
+  margin:2px
+}
+div#end a{
+  color:white
+}
+
+@media only screen and (max-width:810px){
+  ul.hl li{
+    margin-bottom:5px
+  }
+  div.icongroup{
+    display:block;
+    margin-left:0;
+    margin-top:10px;
+    max-height:100px;
+    transition:all 200ms
+  }
+  div.icongroup.hidden{
+    max-height:0
+  }
+  div.icongroup.hidden > i.icon{
+    margin-right:15px;
+    opacity:0
+  }
+  div.skills{
+    float:none;
+    width:unset
+  }
+  div.about{
+    float:none;
+    width:100%;
+    margin-top:80px
+  }
+  div.works h3{
+    font-size:1.6em
+  }
+}
+
+@media only screen and (max-width:530px){
+  body{
+    font-size:0.6em
+  }
+  div.mc{
+    margin-top:50px;
+    margin-left:30px;
+    color:#FFF
+  }
+  ul.hl li{
+    margin-bottom:15px
+  }
+  div.icongroup{
+    display:none
+  }
+  div.page{
+    width:80%;
+    padding:0 5% 20px;
+    margin:30px auto
+  }
+  div.page p, div.skills{
+    font-size:1.2em
+  }
+  div.page h2{
+    font-size:3em;
+    padding:30px 5px 10px
+  }
+  div.page h3{
+    font-size:1.8em
+  }
+  a.icon-link::before{
+    background-size:20px auto;
+    padding-right:20px
+  }
+  div.page.code div.oc img{
+    width:80%
+  }
+  div.page.web div.oc img{
+    width:50%
+  }
+}
+
+a.link {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+a.link:hover {
+  color: #FAFAFA;
+  text-shadow:0 3px 6px rgba(0,0,0,0.4);
+  transition:text-shadow 150ms ease-in-out;
+}
+
+a.link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #304FFE;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+a.link:hover::before {
+  transform: scaleX(1);
+}
